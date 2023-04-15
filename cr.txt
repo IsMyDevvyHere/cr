@@ -1,0 +1,13 @@
+while wait() do
+local args = {
+    [1] = "WheelChair"
+}
+
+game:GetService("ReplicatedStorage").JJ3:FindFirstChild("2NN2NoMoto2NN2rVehicle2NN2s"):FireServer(unpack(args))
+
+local args = {
+    [1] = "NoMotorVehicleDeleteCar"
+}
+
+game:GetService("ReplicatedStorage").JJ3:FindFirstChild("2NN2Ca2NN2r"):FireServer(unpack(args))
+end
